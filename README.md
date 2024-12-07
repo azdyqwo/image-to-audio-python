@@ -1,6 +1,6 @@
 # Image to Audio Tool
 
-[中文自述文件](README_ZH_CN.md) | [日本語のREADME](README_JA.md)
+**English** | [中文](README_ZH_CN.md) | [日本語](README_JA.md)
 
 This tool allows you to convert an image into an audio file. It reads the pixel data from an image, interprets it as frequency data, and generates a corresponding audio signal. This can be useful for creative audio-visual projects or data sonification.
 
