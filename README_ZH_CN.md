@@ -29,6 +29,12 @@
 pip install numpy scipy pillow pystray
 ```
 
+对于在中国大陆的用户，可以使用下面的命令：
+
+```bash
+pip install numpy scipy pillow pystray -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
 ## 从源代码运行
 
 要从源代码运行该工具，请按照以下步骤操作：
