@@ -50,10 +50,8 @@ To run the tool from the source code, follow these steps:
    Make sure you have Python installed on your system. Then run the following command:
 
    ```bash
-   python your_script_name.py
+   python ita.py
    ```
-
-   Replace `your_script_name.py` with the actual name of your Python script.
 
 ## Packaging
 
@@ -68,10 +66,8 @@ To package this tool into a standalone executable, you can use `PyInstaller`. Fo
 2. Run the following command in the terminal to create an executable:
 
    ```bash
-   pyinstaller --onefile --windowed your_script_name.py
+   pyinstaller --onefile --windowed ita.py
    ```
-
-   Replace `your_script_name.py` with the name of your Python script.
 
 3. The executable will be generated in the `dist` directory.
 
