@@ -68,14 +68,19 @@ pip install numpy scipy pillow pystray -i https://pypi.tuna.tsinghua.edu.cn/simp
    ```bash
    pip install pyinstaller
    ```
+   对于在中国大陆的用户，可以使用下面的命令：
+   
+      ```bash
+   pip install pyinstaller -i https://pypi.tuna.tsinghua.edu.cn/simple
+   ```
 
-2. 在终端中运行以下命令以创建可执行文件：
+3. 在终端中运行以下命令以创建可执行文件：
 
    ```bash
    pyinstaller --onefile --windowed ita.py
    ```
 
-3. 可执行文件将生成在`dist`目录中。
+4. 可执行文件将生成在`dist`目录中。
 
 ## 许可证
 
